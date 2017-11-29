@@ -1,0 +1,10 @@
+Thumbs.db
+.DS_Store
+.directory
+
+_debug/
+_release/
+.idea/
+
+src/main*.cpp
+!src/main.cpp
