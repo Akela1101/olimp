@@ -1,7 +1,7 @@
 Thumbs.db
 .DS_Store
 .directory
-
+*.user
 _debug/
 _release/
 .idea/

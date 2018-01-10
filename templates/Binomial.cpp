@@ -4,8 +4,9 @@ constexpr int maxN()
 {
 	return is_same<int, T>() ? 34
 		: is_same<uint, T>() ? 35
-		: is_same<dint, T>() ? 67
-		: 68;
+		: is_same<llong, T>() ? 67
+		: is_same<ullong, T>() ? 68
+		: 0;
 }
 
 vector<vector<valueType>> bC;
